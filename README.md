@@ -1,10 +1,9 @@
-# bitcointicker
+# BitCoin Ticker
 
-A new Flutter application.
+The Currency Converter Application, which fetches current values of the Currencies and displays as per the Currency user choose.
+This implements the integration of REST Services with the application, from https://www.coinapi.io/ which provides the REST API services that allows you to get current market values of different Currencies.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
