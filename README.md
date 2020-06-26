@@ -1,6 +1,10 @@
 # BitCoin Ticker
 
-The Currency Converter Application, which fetches current values of the Currencies and displays as per the Currency user choose.
-This implements the integration of **REST Services** with the application and performing **asynchronous tasks** using async and await, parsing of **JSON data**, from https://www.coinapi.io/ which provides the REST API services that allows you to get current market values of different Currencies.
+The Currency Converter Application, which fetches current values of the different Currencies and displays as per the Currency user choose.
+This application implements asynchronous programming in Dart, which performs on **Asynchronous Tasks**, using async and await, and using **Future** data type of Dart, taking care of time consuming tasks such as sending query on web and networking to get data from the internet.
 
-
+This application revolves around:
+  - Fetching and parsing of **JSON Data**
+  - Using **REST API Services** from https://www.coinapi.io/, which returns the **current market values of different Currencies** data according to the query.
+  - Networking with **Dart HTTP package**
+  - Performs **Asynchronous tasks**, using **async** and **await**
